@@ -3,7 +3,7 @@ const Product = require("./Product");
 const Image = require("./Image");
 const Cart = require("./Cart");
 const User = require("./User");
-const Purchase = require("./purchase");
+const Purchase = require("./Purchases");
 
 Product.belongsTo(Category)
 Category.hasMany(Product)

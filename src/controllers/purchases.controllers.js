@@ -1,5 +1,5 @@
 const catchError = require('../utils/catchError');
-const Purchase = require('../models/Purchase');
+const Purchase = require('../models/Purchases');
 const Cart = require('../models/Cart');
 
 

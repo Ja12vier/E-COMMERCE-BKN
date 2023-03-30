@@ -2,7 +2,7 @@ const { DataTypes } = require('sequelize')
 
 const sequelize = require('../utils/connection')
  // En Mayúsculas y singular      // en minúsculas y singular
-const Purchase= sequelize.define('purchase', {
+const Purchases= sequelize.define('purchases', {
 // Definimos las columnas aquí
 
 quantity: {
@@ -14,4 +14,4 @@ allowNull: false
 
 
 });
-module.exports = Purchase;
+module.exports = Purchases;
