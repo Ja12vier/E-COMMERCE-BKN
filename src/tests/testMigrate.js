@@ -5,6 +5,8 @@ require("../models/Category")
 require("../models/index")
 require("../models/Product")
 require("../models/Image")
+
+
 const main = async() => {
     try{
         await sequelize.sync({ force: true });
